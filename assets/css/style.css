@@ -81,17 +81,11 @@ p {
 /* ============================ IMG ==================================== */
 
 img {
-  width: 440px;
-  height: 616px;
+  width: 100%;
 }
 
 img:hover {
   opacity: 0.5;
-}
-
-.img-wide {
-  width: 1360px;
-  height: 731px;
 }
 
 /* ============================ NAVBAR ==================================== */
@@ -115,13 +109,9 @@ nav {
 
 /* ============================ GALLERY ==================================== */
 
-.small {
-  width: 440px;
-}
-
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 33%);
+  grid-template-columns: repeat(3, 1fr);
   gap: 16px;
 }
 
