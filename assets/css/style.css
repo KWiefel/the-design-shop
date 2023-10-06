@@ -1,0 +1,172 @@
+@font-face {
+  font-family: "Karla";
+  src: url(./../fonts/Karla/Karla-VariableFont_wght.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Karla";
+  --color-primary: #000;
+  --color-secondary: #848484;
+  --color-logo: #323a45;
+}
+
+body {
+  margin-inline: 40px;
+}
+
+/* ============================ FONTS ==================================== */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-logo);
+  text-transform: uppercase;
+}
+
+.link-nav {
+  font-size: 0.625rem;
+  font-weight: 700;
+  color: var(--color-logo);
+  text-transform: uppercase;
+  padding-left: 16px;
+}
+
+h3 {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  padding-bottom: 40px;
+}
+
+p {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.375rem;
+  color: var(--color-primary);
+}
+
+.brand {
+  color: var(--color-secondary);
+}
+
+.text-footer {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: var(--color-logo);
+}
+
+.link-footer {
+  font-size: 0.625rem;
+  font-weight: 400;
+  color: var(--color-logo);
+}
+
+.disclaimer {
+  font-style: italic;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+/* ============================ IMG ==================================== */
+
+img {
+  width: 440px;
+  height: 616px;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+.img-wide {
+  width: 1360px;
+  height: 731px;
+}
+
+/* ============================ NAVBAR ==================================== */
+
+header {
+  padding-block: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ============================ WIDE ==================================== */
+
+.article {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 1.4375rem;
+}
+
+/* ============================ GALLERY ==================================== */
+
+.small {
+  width: 440px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  gap: 16px;
+}
+
+/* ============================ FOOTER ==================================== */
+
+footer {
+  margin-top: 60px;
+  margin-bottom: 8px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+}
+
+footer a {
+  display: block;
+}
+
+footer span {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.column-first {
+  grid-column: 1 / 3;
+}
+
+.column-second {
+  grid-column: 3 / 4;
+}
+
+.column-third {
+  grid-column: 4 / 5;
+}
+
+.column-four {
+  grid-column: 6 / 7;
+}
+
+.textbox {
+  width: 23.5625rem;
+}
+
+.copyright {
+  padding-top: 44px;
+  color: var(--color-secondary);
+  font-size: 0.625rem;
+  font-weight: 400;
+}
