@@ -151,7 +151,7 @@ footer span {
 }
 
 .textbox {
-  width: 23.5625rem;
+  max-width: 23.5625rem;
 }
 
 .copyright {
